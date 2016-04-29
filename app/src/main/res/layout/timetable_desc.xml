@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Time Table"
+            android:textSize="40dp"
+            android:id="@+id/textView15"
+            android:background="#E6E6FA"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="Description : 이것은 저의 시간표를 보여주는 옵션입니다. "
+            android:id="@+id/textView14"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#E6E6FA"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time Table 시작하기"
+            android:gravity="center"
+            android:id="@+id/timetablebtn" />
+
+    </LinearLayout>
+</LinearLayout>

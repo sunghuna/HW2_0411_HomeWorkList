@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Homework List view</string>
+    <string name="monday">월요일</string>
+    <string name="tuesday">화요일</string>
+    <string name="wednesday">수요일</string>
+    <string name="thursday">목요일</string>
+    <string name="friday">금요일</string>
+
+    <string name="one">1교시</string>
+    <string name="two">2교시</string>
+    <string name="three">3교시</string>
+    <string name="four">4교시</string>
+    <string name="five">5교시</string>
+    <string name="six">6교시</string>
+    <string name="seven">7교시</string>
+    <string name="eight">8교시</string>
+    <string name="nine">9교시</string>
+    <string name="ten">10교시</string>
+    <string name="eleven">11교시</string>
+    <string name="twelve">12교시</string>
+    <string name="thirteen">13교시</string>
+    <string name="fourteen">14교시</string>
+
+</resources>

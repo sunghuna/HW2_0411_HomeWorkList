@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sunghuncom.hw2_0411.TimeTable"
+    android:orientation="vertical"> <!--고치기 -->
+
+    <TextView
+        android:id="@+id/dateNTime"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Date and time"
+        android:gravity="right"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        >
+
+        <GridLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/parentGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="6"
+            android:rowCount="1"
+            android:orientation="horizontal">
+
+            <GridLayout
+                android:id="@+id/number"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:columnCount="1"
+                android:rowCount="14"
+                android:background="#E6E6FA"
+                android:layout_columnWeight="1"
+                >
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text=""
+                    android:id="@+id/garbage"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/one"
+                    android:id="@+id/textView"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/two"
+                    android:id="@+id/textView2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/three"
+                    android:id="@+id/textView3"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/four"
+                    android:id="@+id/textView4"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/five"
+                    android:id="@+id/textView5"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/six"
+                    android:id="@+id/textView6"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/seven"
+                    android:id="@+id/textView7"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/eight"
+                    android:id="@+id/textView8"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/nine"
+                    android:id="@+id/textView9"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/ten"
+                    android:id="@+id/textView10"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/eleven"
+                    android:id="@+id/textView11"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/twelve"
+                    android:id="@+id/textView12"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="@string/thirteen"
+                    android:id="@+id/textView13"
+                    android:gravity="center"/>
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/monday"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:columnCount="1"
+                android:background="#FFA500"
+                android:rowCount="14"
+                >
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="@string/monday"
+                    android:id="@+id/mon_1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="에듀에코세미나"
+                    android:id="@+id/mon_3"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:text="모바일 프로그래밍"
+                    android:layout_rowSpan="2"
+                    android:layout_gravity="center"
+                    android:id="@+id/mon_4"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_rowWeight="2" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_6"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_7"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_8"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_9"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_10"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_11"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_12"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/mon_13"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="1111"
+                    android:id="@+id/mon_14"
+                    android:gravity="center"/>
+
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/tuesday"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:columnCount="1"
+                android:rowCount="14"
+                android:background="#E6E6FA"
+                android:layout_columnWeight="1"
+                >
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="@string/tuesday"
+                    android:id="@+id/tue_1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="200dp"
+                    android:text="멀티미디어"
+                    android:layout_rowSpan="4"
+                    android:id="@+id/tue_2"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:text="컴퓨터 프로그래밍"
+                    android:layout_rowSpan="2"
+                    android:id="@+id/tue_6"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/tue_8"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/tue_9"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/tue_10"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/tue_11"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/tue_12"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/tue_13"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/tue_14"
+                    android:gravity="center"/>
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/wednesday"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_column="3"
+                android:columnCount="1"
+                android:rowCount="14"
+                android:background="#FFA500"
+                android:layout_columnWeight="1">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="@string/wednesday"
+                    android:id="@+id/wed_1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/wed_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:text="모바일 프로그래밍"
+                    android:layout_rowSpan="2"
+                    android:id="@+id/wed_3"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/wed_5"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:text="기술경영"
+                    android:layout_rowSpan="3"
+                    android:id="@+id/wed_6"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/wed_9"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/wed_10"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/wed_11"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/wed_12"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/wed_13"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="1111"
+                    android:id="@+id/wed_14"
+                    android:gravity="center"/>
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/thursday"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_column="4"
+                android:columnCount="1"
+                android:rowCount="14"
+                android:background="#E6E6FA"
+                android:layout_columnWeight="1"
+                >
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="@string/thursday"
+                    android:id="@+id/thu_1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="200dp"
+                    android:text="자료구조"
+                    android:layout_rowSpan="4"
+                    android:textAlignment="center"
+                    android:id="@+id/thu_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:text="컴퓨터 프로그래밍"
+                    android:id="@+id/thu_6"
+                    android:layout_rowSpan="2"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/thu_8"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/thu_9"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/thu_10"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/thu_11"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/thu_12"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/thu_13"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/thu_14"
+                    android:gravity="center"/>
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/friday"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_column="5"
+                android:columnCount="1"
+                android:rowCount="14"
+                android:background="#FFA500"
+                android:layout_columnWeight="1">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:text="@string/friday"
+                    android:id="@+id/fri_1"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="200dp"
+                    android:text="데이터마이닝"
+                    android:textAlignment="center"
+                    android:layout_rowSpan="4"
+                    android:id="@+id/fri_2"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_6"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_7"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_8"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_9"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_10"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_11"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_12"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:id="@+id/fri_13"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="1111"
+                    android:id="@+id/fri_14"
+                    android:gravity="center"/>
+            </GridLayout>
+        </GridLayout>
+    </ScrollView>
+</LinearLayout>
